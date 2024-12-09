@@ -60,6 +60,8 @@ where continent is not null
 Group by continent
 order by TotalDeathCount desc
 
+--North America has the highest death count
+
 
 
 
@@ -71,6 +73,8 @@ from PortfolioProject.dbo.CovidDeaths
 where continent is not null
 --group by date
 order by 1,2
+
+-- Global Death Percent is around 2.1%
 
 
 --Looking at Total Population vs Vaccinations

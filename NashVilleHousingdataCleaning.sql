@@ -140,10 +140,10 @@ from PortfolioProjects.dbo.NashvilleHousing
 --order by parcelid
 )
 
-select *
+Delete
 from RowNumCTE
 where row_num > 1
-order by parcelid
+--order by parcelid
 
 
 

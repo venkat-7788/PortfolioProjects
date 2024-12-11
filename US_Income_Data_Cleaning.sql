@@ -58,7 +58,7 @@ WHERE State_Name = 'georia'
 ;
 
 UPDATE US_Project.us_household_income
-SET State_Name = CONCAT(UCASE(SUBSTRING(State_Name, 1, 1)), LOWER(SUBSTRING(State_Name, 2)))
+SET State_Name = CONCAT(UPPER(SUBSTRING(State_Name, 1, 1)), LOWER(SUBSTRING(State_Name, 2)))
 ;
 
 -- WORKING WITH NULL VALUES
